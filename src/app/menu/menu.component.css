@@ -1,0 +1,24 @@
+nav a {
+    font:Geneva;
+    margin: 10px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: underline;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+ }
+ 
+ nav a:hover {
+    background-color: #ddd;
+    border:1px solid gray;
+    color: black;
+ }
+ 
+ nav a.active {
+    background-color: rgb(192, 224, 255);
+    border:1px solid gray;
+    color: rgb(0, 0, 0);
+ }
